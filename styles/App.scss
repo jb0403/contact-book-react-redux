@@ -1,0 +1,21 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.hover_action {
+  opacity: 0;
+}
+tr:hover .hover_action {
+  opacity: 1;
+  padding-top: 1rem;
+}
+
+tbody td a {
+  color: #222;
+
+  &:hover {
+    color: #222;
+  }
+}
